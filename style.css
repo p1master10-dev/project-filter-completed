@@ -1,0 +1,15 @@
+canvas{
+     box-shadow: 0px 0px 1px 10px grey;
+     margin-top: 150px;
+}
+
+#take_snapshot:focus{
+     animation-name: thisanime;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes thisanime{
+     from{background-color: orangered;}
+     to{background-color: bisque;}
+}
